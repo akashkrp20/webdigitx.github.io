@@ -2,709 +2,494 @@
 <html lang="en">
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+     <title>Hydro - Landing Page Template</title>
+<!-- 
+Hydro Template 
+http://www.templatemo.com/tm-509-hydro
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <title>WebDigitX | Home</title>
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lateef" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-      <style>
-    .wow:first-child {
-      visibility: hidden;
-    }
-  </style>
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-style.css">
 </head>
 <body>
-    <!-- Navigation -->
-<section id="webBuilder-navbar">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container" style="padding: 10px;">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="index.html">
-                  <img src="img/webdigitx.png">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- <li class="show-on-hover">
-                        <a class="page-scroll dropdown-toggle" href="#" data-toggle="dropdown" style="padding-top: 5px;">
-                          <span style="padding: 10px 8px 5px 7px;"> 
-                            <i class="fa fa-user" aria-hidden="true"></i> <span style="font-size: 10px;">Akash</span>
-                          </span></a>
-                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="#" style="color: #000;">Account Setting</a></li>
-                            <li><a href="#" style="color: #000;">Logut</a></li>
-                          </ul>
-                      </li> -->
-                   <!--  <li class="">
-                        <a class="page-scroll" href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-top: 5px;">
-                          <span style="padding: 10px 8px 5px 7px;"><span style="font-size: 30px;font-weight: 100;">[</span> 
-                            <i class="fa fa-user loginIcon" aria-hidden="true"></i> <span style="font-size: 10px;">login</span> <span style="font-size: 30px;font-weight: 100;">]</span>
-                          </span></a>
 
-                        <ul id="login-dp" class="dropdown-menu">
-                          <li>
-                             <div class="conatiner a1">
-                              <div class="row">
-                                <div class="col-sm-6" style="border-right: 1px solid #e6e6e6;">
-                                  <center><h4 style="font-family: 'Quicksand', sans-serif;">User Account</h4></center>
-                                    <div class="form">
-      
-                                      <ul class="tab-group">
-                                        <li class="tab active user"><a href="#signup1">Sign Up</a></li>
-                                        <li class="tab user"><a href="#login1">Log In</a></li>
-                                      </ul>
-                                      
-                                      <div class="tab-content abc">
-                                        <div id="signup1">   
-                                          <h1 class="login-h1">Sign Up for Free</h1>
-                                          
-                                          <form action="/" method="post">
-                                          
-                                          <div class="top-row">
-                                            <div class="field-wrap">
-                                              <input type="text" placeholder="First Name" required autocomplete="off" />
-                                            </div>
-                                        
-                                            <div class="field-wrap">
-                                              <input type="text" placeholder="Last Name" required autocomplete="off"/>
-                                            </div>
-                                          </div>
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
+          </div>
+     </section>
 
-                                          <div class="field-wrap">
-                                            <input type="email" placeholder=" Email" required autocomplete="off"/>
-                                          </div>
-                                          
-                                          <div class="field-wrap">
-                                            <input type="password" placeholder="Set A Password" required autocomplete="off"/>
-                                          </div>
-                                          
-                                          <button type="submit" class="button button-block"/>Get Started</button>
-                                          
-                                          </form>
 
-                                        </div>
-                                        
-                                        <div id="login1">   
-                                          <h1 class="login-h1">Welcome Back!</h1>
-                                          
-                                          <form action="/" method="post">
-                                          
-                                            <div class="field-wrap">
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top top-nav-collapse" role="navigation">
+          <div class="container">
 
-                                            <input type="email" placeholder="Email" required autocomplete="off"/>
-                                          </div>
-                                          
-                                          <div class="field-wrap">
-                                            <input type="password" placeholder="Password" required autocomplete="off"/>
-                                          </div>
-                                          
-                                          <p class="forgot"><a href="#">Forgot Password?</a></p>
-                                          
-                                          <button class="button button-block"/>Log In</button>
-                                          
-                                          </form>
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
 
-                                        </div>
-                                        
-                                      </div>
-                                      
-                                </div>
-                                </div>
-                                <div class="col-sm-6">
-                                  <center><h4 style="font-family: 'Quicksand', sans-serif;">Partner Account</h4></center>
-                                  <div class="form">
-      
-                                      <ul class="tab-group">
-                                        <li class="tab active partner"><a href="#signup">Sign Up</a></li>
-                                        <li class="tab partner"><a href="#login">Log In</a></li>
-                                      </ul>
-                                      
-                                      <div class="tab-content xyz">
-                                        <div id="signup">   
-                                          <h1 class="login-h1">Sign Up for Free</h1>
-                                          
-                                          <form action="/" method="post">
-                                          
-                                          <div class="top-row">
-                                            <div class="field-wrap">
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">
+                    	<img src="images/webdigitx.png">
+                    </a>
+               </div>
 
-                                              <input type="text" placeholder="First Name" required autocomplete="off" />
-                                            </div>
-                                        
-                                            <div class="field-wrap">
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="#home" class="smoothScroll">Home</a></li>
+                         <li><a href="#about" class="smoothScroll">About</a></li>
+                         <li><a href="#blog" class="smoothScroll">Our Team</a></li>
+                         <li><a href="#work" class="smoothScroll">Our Work</a></li>
+                         <li><a href="#contact" class="smoothScroll">Contacts</a></li>
+                    </ul>
 
-                                              <input type="text" placeholder="Last Name" required autocomplete="off"/>
-                                            </div>
-                                          </div>
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                         <!-- <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Sign in / Join</a></li> -->
+                    </ul>
+               </div>
 
-                                          <div class="field-wrap">
+          </div>
+     </section>
 
-                                            <input type="email" placeholder="Email" required autocomplete="off"/>
-                                          </div>
-                                          
-                                          <div class="field-wrap">
 
-                                            <input type="password" placeholder="Set A Password" required autocomplete="off"/>
-                                          </div>
-                                          
-                                          <button type="submit" class="button button-block"/>Get Started</button>
-                                          
-                                          </form>
+     <!-- HOME -->
+     <section id="home" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
 
-                                        </div>
-                                        
-                                        <div id="login">   
-                                          <h1 class="login-h1">Welcome Back!</h1>
-                                          
-                                          <form action="/" method="post">
-                                          
-                                            <div class="field-wrap">
+                    <div class="col-md-6 col-sm-12">
+                         <div class="home-info">
+                              <h1>We make beautiful websites for all people.</h1>
+                              <a href="#about" class="btn section-btn smoothScroll">Start a project</a>
+                              <span>
+                                   CALL US +91 9968827997
+                                   <small>For any inquiry</small>
+                              </span>
+                         </div>
+                    </div>
 
-                                            <input type="email" placeholder="Email" required autocomplete="off"/>
-                                          </div>
-                                          
-                                          <div class="field-wrap">
- 
-                                            <input type="password" placeholder="Password" required autocomplete="off"/>
-                                          </div>
-                                          
-                                          <p class="forgot"><a href="#">Forgot Password?</a></p>
-                                          
-                                          <button class="button button-block"/>Log In</button>
-                                          
-                                          </form>
-
-                                        </div>
-                                        
-                                      </div>
-                                      
-                                </div> 
-                                </div>
+                    <div class="col-md-6 col-sm-12">
+                         <div class="home-video">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                   <iframe src="https://www.youtube.com/embed/AqcjdkPMPJA" frameborder="0" allowfullscreen></iframe>
                               </div>
-                            </div>
-
-
-                          </li>
-                        </ul>
-                    </li> -->
+                         </div>
+                    </div>
                     
-                </ul>
-               <!--  <ul class="nav navbar-nav navbar-right" style="margin-right: 5px;">
-                   <li>
-
-                      <div class="search-container">
-                        <a href="#/search" class="search-button">
-                          <i class="fa fa-search"></i>
-                        </a>
-                        <input class="inputFocus" type="text" placeholder="Search">
-                      </div>
-                   </li>
-                 </ul> -->
-                 <ul class="nav navbar-nav navbar-right navbarManu">
-                    <li class="">
-                        <a class="page-scroll" href="index.html">Home</a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="templatePre.html">Services</a>
-                    </li> -->
-                    <!-- <li>
-                        <a class="page-scroll" href="feature.html">PortFolio</a>
-                    </li> -->
-                     <li>
-                        <a class="page-scroll" href="templatePre.html">Service</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="feature.html">About Us</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="reseller.html">Contact Us</a>
-                    </li>
-                    <!-- <li>
-                        <a class="page-scroll" href="reseller.html">Careers</a>
-                    </li> -->
-                 </ul>
-            </div>
-        </div>
-    </nav>
-</section>
-
-<section id="webBuilder-slider">
-    <div class="container-fluid">
-      <div class="row">
-        <!-- <div class="visible-xs" style="padding: 0; margin-top: 70px;">
-          <img src="img/slidercopy01.jpg" class="img-responsive">
-        </div> -->
-        <div class="col-md-12" style="padding: 0">
-          <div class="demo-cont">
-            <!-- slider start -->
-            <div class="lime-slider example-slider">
-              <div class="lime-slider__slides">
-                <!-- slide start -->
-                <div class="lime-slide m--blend-green m--active-slide">
-                  <div class="lime-slide__inner">
-                    <div class="lime-slide__mask">
-                      <div class="lime-slide__mask-inner"></div>
-                    </div>
-                    <div class="lime-slide__content">
-                      <h2 class="lime-slide__heading">
-                        <div class="lime-slide__heading-line">
-                          <span>Flexible Website for</span>
-                        </div>
-                        <div class="lime-slide__heading-line">
-                          <span>Your Business</span>
-                        </div>
-                      </h2>
-                      <!-- <button type="button" class="lime-slide__action-btn">
-                        GET STARTED
-                        <span data-text="GET STARTED">GET STARTED</span>
-                      </button> -->
-                    </div>
-                  </div>
-                </div>
-                <!-- slide end -->
-                <!-- slide start -->
-                <div class="lime-slide m--blend-dark">
-                  <div class="lime-slide__inner">
-                    <div class="lime-slide__mask-tri">
-                      <div class="lime-slide__mask-inner-tri"></div>
-                    </div>
-                    <div class="lime-slide__content">
-                      <h2 class="lime-slide__heading">
-                        <div class="lime-slide__heading-line">
-                          <span>Creative</span>
-                        </div>
-                        <div class="lime-slide__heading-line">
-                          <span>Design</span>
-                        </div>
-                      </h2>
-                      <!-- <button type="button" class="lime-slide__action-btn">
-                         GET STARTED
-                        <span data-text="GET STARTED">GET STARTED</span>
-                      </button> -->
-                    </div>
-                  </div>
-                </div>
-                <!-- slide end -->
-                <!-- slide start -->
-                <div class="lime-slide m--blend-red">
-                  <div class="lime-slide__inner">
-                    <div class="lime-slide__mask-para">
-                      <div class="lime-slide__mask-inner-para"></div>
-                    </div>
-                    <div class="lime-slide__content">
-                      <h2 class="lime-slide__heading">
-                        <div class="lime-slide__heading-line">
-                          <span>Advance</span>
-                        </div>
-                        <div class="lime-slide__heading-line">
-                          <span>SEO</span>
-                        </div>
-                      </h2>
-                      <!-- <button type="button" class="lime-slide__action-btn">
-                         GET STARTED
-                        <span data-text="GET STARTED">GET STARTED</span>
-                      </button> -->
-                    </div>
-                  </div>
-                </div>
-                <!-- slide end -->
-                <!-- slide start -->
-                <div class="lime-slide m--blend-blue">
-                  <div class="lime-slide__inner">
-                    <div class="lime-slide__mask-hash">
-                      <div class="lime-slide__mask-inner-hash"></div>
-                    </div>
-                    <div class="lime-slide__content">
-                      <h2 class="lime-slide__heading">
-                        <div class="lime-slide__heading-line">
-                          <span>Easy</span>
-                        </div>
-                        <div class="lime-slide__heading-line">
-                          <span>Customization</span>
-                        </div>
-                      </h2>
-                      <!-- <button type="button" class="lime-slide__action-btn">
-                         GET STARTED
-                        <span data-text="GET STARTED">GET STARTED</span>
-                      </button> -->
-                    </div>
-                  </div>
-                </div>
-                <!-- slide end -->
-              </div>
-              <nav class="lime-nav">
-                <div class="lime-nav__bgs">
-                  <div class="lime-nav__bg m--navbg-green m--active-nav-bg"></div>
-                  <div class="lime-nav__bg m--navbg-dark"></div>
-                  <div class="lime-nav__bg m--navbg-red"></div>
-                  <div class="lime-nav__bg m--navbg-blue"></div>
-                </div>
-                <div class="lime-nav__controls">
-                  <button class="lime-nav__control">
-                    Flexible Website
-                    <span class="lime-nav__control-progress"></span>
-                  </button>
-                  <button class="lime-nav__control">
-                   Creative Design
-                    <span class="lime-nav__control-progress"></span>
-                  </button>
-                  <button class="lime-nav__control">
-                    Advance SEO
-                    <span class="lime-nav__control-progress"></span>
-                  </button>
-                  <button class="lime-nav__control">
-                    Easy Customization
-                    <span class="lime-nav__control-progress"></span>
-                  </button>
-                </div>
-              </nav>
-            </div>
+               </div>
           </div>
-        </div>
-      </div>
-    </div>
-</section>
-<section id="webBuilder-info">
-  <div class="container" style="padding-top: 50px; padding-bottom: 50px;">
-    <div class="row">
-      <div class="col-sm-12 wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">
-        <div class="col-sm-2 col-xs-6" style="margin-bottom: 20px">
-          <center>
-            <div class="circle">
-              <img class="img-responsive" alt="" src="img/7.png" style="width: 70px;">
-            </div>
-            <hr class="hr">
-            <h5 style="color: #969696; font-size: 14px;">Website <br>Development</h5>
-            <!-- <a href="#" style="color: #168003;">Learn More</a> -->
-          </center>
-        </div>
-        <div class="col-sm-2 col-xs-6" style="margin-bottom: 20px">
-          <center>
-            <div class="circle">
-              <img class="img-responsive" alt="" src="img/8.png" style="width: 70px;">
-            </div>
-            <hr class="hr">
-            <h5 style="color: #969696; font-size: 14px;">Content <br>Marketing</h5>
-            <!-- <a href="#" style="color: #168003;">Learn More</a> -->
-          </center>
-        </div>
-        <div class="col-sm-2 col-xs-6" style="margin-bottom: 20px">
-          <center>
-            <div class="circle">
-              <img class="img-responsive" alt="" src="img/10.png" style="width: 70px;">
-            </div>
-            <hr class="hr">
-            <h5 style="color: #969696; font-size: 14px;">UI/UX <br>Design</h5>
-            <!-- <a href="contant.html" style="color: #168003;">Learn More</a> -->
-          </center>
-        </div>
-        <div class="col-sm-2 col-xs-6" style="margin-bottom: 20px">
-          <center>
-            <div class="circle">
-              <img class="img-responsive" alt="" src="img/3.png" style="width: 70px;">
-            </div>
-            <hr class="hr">
-            <h5 style="color: #969696; font-size: 14px;">Reputation Building</h5>
-            <!-- <a href="customizePage.html" style="color: #168003;">Learn More</a> -->
-          </center>
-        </div>
-        <div class="col-sm-2 col-xs-6" style="margin-bottom: 20px">
-          <center>
-            <div class="circle">
-              <img class="img-responsive" alt="" src="img/1.png" style="width: 70px;">
-            </div>
-            <hr class="hr">
-            <h5 style="color: #969696; font-size: 14px;">PPC <br>Advertising</h5>
-            <!-- <a href="onlineStore.html" style="color: #168003;">Learn More</a> -->
-          </center>
-        </div>
-        <div class="col-sm-2 col-xs-6" style="margin-bottom: 20px">
-          <center>
-            <div class="circle">
-             <img class="img-responsive" alt="" src="img/2.png" style="width: 70px;">
-            </div>
-            <hr class="hr">
-            <h5 style="color: #969696; font-size: 14px;">Social Media<br>Marketing</h5>
-           <!--  <a href="reseller.html" style="color: #168003;">Learn More</a> -->
-          </center>
-        </div>
-      </div>
-      <div class="col-sm-12">
-        <center>
-          <!-- <h1 style="font-family: 'Quattrocento', serif;">aCMS that can handle your big ideas</h1> -->
-          <section class="cd-intro">
-              <h1 class="cd-headline clip is-full-width" style="margin-bottom: 0px;">
-              <span>aCMS that can handle your</span>
-              <span class="cd-words-wrapper">
-                <b class="is-visible">Web </b>
-                <b style="color: #3c8dbc;">SEO </b>
-                <b style="color: green;">Media </b>
-              </span>
-            </h1>
+     </section>
 
-        </section>
-          <div class="col-sm-offset-1 col-sm-10">
-            <p style="font-size: 15px; color: #6b6b6b; line-height: 1;">Focus on what makes you different, now anybody can build a website of big ideas. Everything begins with thoughts - always believe that you can succeed. A advance content management system for you.</p>
+
+     <!-- ABOUT -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-5 col-sm-6">
+                         <div class="about-info">
+                              <div class="section-title">
+                                   <h2>Let us introduce</h2>
+                                   <span class="line-bar">...</span>
+                              </div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                         <div class="about-info skill-thumb">
+
+                              <strong>Web Design</strong>
+                                   <span class="pull-right">85%</span>
+                                        <div class="progress">
+                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                                        </div>
+
+                              <strong>APP Development</strong>
+                                   <span class="pull-right">90%</span>
+                                        <div class="progress">
+                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                        </div>
+
+                              <strong>Content Marketing</strong>
+                                   <span class="pull-right">75%</span>
+                                        <div class="progress">
+                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                        </div>
+
+                              <strong>Social Media</strong>
+                                   <span class="pull-right">70%</span>
+                                        <div class="progress">
+                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                        </div>
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                         <div class="about-image">
+                              <img src="images/about-image_blue.png" class="img-responsive" alt="">
+                         </div>
+                    </div>
+                    
+               </div>
           </div>
-         
-        </center>
-      </div>
-      <div class="col-sm-12">
-        <div class="col-sm-8">
-           <img class="img-responsive wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s"  alt="" src="img/customize-1.jpg">
-        </div>
-        <div class="col-sm-4">
-          <div class="col-sm-12" style="padding-top: 50px;">
-            <h4 style="color: #0e5069; font-weight: 600;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Manage Content On Your Pages.</h4>
-            <br>
-            <p style="font-size: 16px; line-height: 25px; color: #6d6d6d;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">The Limestem system works the way you work. Browse your website naturally, adding or editing content right on your pages. CMS systems don't get any easier.</p>
-            <hr>
+     </section>
+
+
+     <!-- BLOG -->
+     <section id="blog" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h2>Our Expert Team</h2>
+                              <span class="line-bar">...</span>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <!-- BLOG THUMB -->
+                         <div class="media blog-thumb">
+                              <div class="media-object media-left">
+                                   <a href="blog-detail.html"><img src="images/blog-image1.jpg" class="img-responsive" alt=""></a>
+                              </div>
+                              <div class="media-body blog-info">
+                                   <!-- <small><i class="fa fa-clock-o"></i> December 22, 2017</small> -->
+                                   <h3><a href="javascript:void(0);">Akash Patel</a></h3>
+                                   <p>Web Developer</p>
+                                   <a href="" class="btn section-btn">Know more</a>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <!-- BLOG THUMB -->
+                         <div class="media blog-thumb">
+                              <div class="media-object media-left">
+                                   <a href="blog-detail.html"><img src="images/blog-image2.jpg" class="img-responsive" alt=""></a>
+                              </div>
+                              <div class="media-body blog-info">
+                                   <small><i class="fa fa-clock-o"></i> December 18, 2017</small>
+                                   <h3><a href="blog-detail.html">woman sportwear.</a></h3>
+                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
+                                   <a href="" class="btn section-btn">Know more</a>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <!-- BLOG THUMB -->
+                         <div class="media blog-thumb">
+                              <div class="media-object media-left">
+                                   <a href="blog-detail.html"><img src="images/blog-image3.jpg" class="img-responsive" alt=""></a>
+                              </div>
+                              <div class="media-body blog-info">
+                                   <small><i class="fa fa-clock-o"></i> December 14, 2017</small>
+                                   <h3><a href="blog-detail.html">new creative fashion.</a></h3>
+                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
+                                   <a href="" class="btn section-btn">Know more</a>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <!-- BLOG THUMB -->
+                         <div class="media blog-thumb">
+                              <div class="media-object media-left">
+                                   <a href=""><img src="images/blog-image4.jpg" class="img-responsive" alt=""></a>
+                              </div>
+                              <div class="media-body blog-info">
+                                   <small><i class="fa fa-clock-o"></i> December 10, 2017</small>
+                                   <h3><a href="blog-detail.html">minimalist design trend in 2018.</a></h3>
+                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
+                                   <a href="" class="btn section-btn">Know more</a>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
           </div>
-          <div class="col-sm-12" style="padding-top: 20px;">
-            <h4 style="color: #0e5069; font-weight: 600;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">A Better CMS Website Builder</h4>
-            <br>
-            <p style="font-size: 16px; line-height: 25px; color: #6d6d6d;" class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Limestem is a complete content management system including blogs, forms, calendars, photo galleries, e-commerce, Appointments and much more.</p>
+     </section>
+
+
+     <!-- WORK -->
+     <section id="work" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h2>Our work</h2>
+                              <span class="line-bar">...</span>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-image1.jpg" class="image-popup">
+                                   <img src="images/work-image1.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                        <h3>Clean &amp; Minimal</h3>
+                                        <small>Product Design</small>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-image2.jpg" class="image-popup">
+                                   <img src="images/work-image2.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                        <h3>Studio Bag</h3>
+                                        <small>Branding</small>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-image3.jpg" class="image-popup">
+                                   <img src="images/work-image3.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                        <h3>Frame Design</h3>
+                                        <small>Photography</small>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                         <!-- WORK THUMB -->
+                         <div class="work-thumb">
+                              <a href="images/work-image4.jpg" class="image-popup">
+                                   <img src="images/work-image4.jpg" class="img-responsive" alt="Work">
+
+                                   <div class="work-info">
+                                        <h3>Paint Work</h3>
+                                        <small>Art, Design</small>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+               </div>
           </div>
-        </div>
-      </div>
-    </div> 
-  </div>
-</section>
-<section id="webBuilder-pluginDes">
-  <div class="container" style="margin-bottom: 100px;">
-    <div class="row">
-      
-      <div class="col-sm-12" style="margin-bottom: 100px;">
-        <div class="col-md-6 hidden-xs wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-          <p class="pTypes">Web Development</p>
-          <hr class="hrNt">
-          <p class="p-themes">Web Development</p>
-          <p style="font-size: 13px; line-height: 22px; color: #848484;">Grow your audience and imaging your possibilities. We are providing a platform to start newsletter campaigns for your marketing to reach consumers directly. Newsletters are an effective means of keeping your client base informed about the products and services you offers. The email newsletter can be in the form of your imagination or idea like some email newsletters feature a coupon to entice customers to come back or take advantage of a special offer. It can be a regular way for your business to stay in contact with customers.</p>
-          <br>
-          <a href="" class="btnThemes">Know more about newsletter</a>
-        </div>
-        <div class="col-md-6">
-          <figure class="snip1084 red">
-            <img class="img-responsive" style="box-shadow: 5px 5px 28px #989898;" src="img/customize02.jpg" />
-            <figcaption>
-              <h2></h2>
-              <p>WebSite   <span>Development</span></p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="visible-xs wow fadeInUp paddingDesc" data-wow-duration="1s" data-wow-delay="0.5s">
-          <p class="pTypes">Newsletter Marketing</p>
-          <p class="p-themes">Lime Newsletter</p>
-          <p style="font-size: 13px; line-height: 25px; color: #6d6d6d;">Grow your audience and imaging your possibilities. We are providing a platform to start newsletter campaigns for your marketing to reach consumers directly. Newsletters are an effective means of keeping your client base informed about the products and services you offers. The email newsletter can be in the form of your imagination or idea like some email newsletters feature a coupon to entice customers to come back or take advantage of a special offer. It can be a regular way for your business to stay in contact with customers.</p>
-          <br>
-          <a href="" class="btnThemes">Know more about newsletter</a>
-        </div>
-      </div>
-      <div class="col-sm-12" style="margin-bottom: 100px;">
-        <div class="col-md-6">
-          <figure class="snip1084 red">
-            <img class="img-responsive" style="box-shadow: 5px 5px 28px #989898;" src="img/customize02.jpg" />
-            <figcaption>
-              <h2></h2>
-              <p>UI/UX   <span>Development</span></p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-6 hidden-xs wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s">
-          <p class="pTypes">UI/UX Development</p>
-          <hr class="hrInt">
-          <p class="p-themes">UI/UX Development</p>
-          <p style="font-size: 13px; line-height: 22px; color: #848484;">Prebuild and designed beautiful email system to effectively communicate with your audience and share your messages. It's easy to get started with our eye-catching email system. You can also called it your own mail program, mail application or mail client which allows you to manage, read and compose e-mail and runs on your own server.</p>
-          <br>
-          <a href="" class="btnThemes">Know more about email</a>
-        </div>
-        
-        <div class="visible-xs wow fadeInUp paddingDesc" data-wow-duration="1s" data-wow-delay="0.5s">
-          <p class="pTypes">UI/UX Development</p>
-          <p class="p-themes">UI/UX Development</p>
-          <p style="font-size: 13px; line-height: 25px; color: #6d6d6d;">Prebuild and designed beautiful email system to effectively communicate with your audience and share your messages. It's easy to get started with our eye-catching email system. You can also called it your own mail program, mail application or mail client which allows you to manage, read and compose e-mail and runs on your own server.</p>
-          <br>
-          <a href="" class="btnThemes">Know more about email</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+     </section>
 
-<section id="webBuilder-footer">
-  <div class="container-fluid footer-1">
-    <div class="row">
-      <div class=" col-lg-5 col-md-5" style="border-right: 1px solid; text-align: center;">
-        <p style="font-family: 'Roboto', sans-serif;"><i class="fa fa-home" aria-hidden="true"></i> building 49, Village Ishlampur, Sector-38 Gurugram (India) 122011</p>
-      </div>
-      <div class="col-lg-3 col-md-3" style="border-right: 1px solid; text-align: center;">
-        <p style="font-family: 'Roboto', sans-serif;"><i class="fa fa-envelope" aria-hidden="true"></i> webdigitx@gmail.com</p>
-      </div>
-      <div class="col-lg-4 col-md-4" style="text-align: center;">
-        <p style="font-family: 'Roboto', sans-serif;"><i class="fa fa-phone" aria-hidden="true"></i> <!-- <a href="tel:+91-8588885246"> -->+91 9968827997<!-- </a> --></p>
-      </div>
-    </div>
-  </div>
-  <hr class="hr-footer">
-  <div class="container-fluid" style="background-color: #212121;">
-  <div class="container">
-        <div class="row" style="padding-top: 25px; padding-bottom: 25px;">
-          <div class="col-lg-5 col-md-5">
-            <h3 style="color: #fff; font-size: 15px;">About Us</h3>
-            <br>
-            <p style=" color: #656363;">Limestem Global Services Private Limited having 20+ field service technicians throughout the India and ready to work across the globe.</p>
-            <p style=" color: #656363;">Limestem Global Services Private Limited is most experienced (13+) to providing support on ERP systems, independent medical equipment/devices and critical application support service to the world.</p>
+     <!-- CONTACT -->
+    <!--  <section id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h2>Contact us</h2>
+                              <span class="line-bar">...</span>
+                         </div>
+                    </div>
+
+                    <div class="col-md-8 col-sm-8">
+                         <form id="contact-form" role="form" action="#" method="post">
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="text" class="form-control" placeholder="Full Name" id="cf-name" name="cf-name" required="">
+                              </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="email" class="form-control" placeholder="Your Email" id="cf-email" name="cf-email" required="">
+                              </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="tel" class="form-control" placeholder="Your Phone" id="cf-number" name="cf-number" required="">
+                              </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <select class="form-control" id="cf-budgets" name="cf-budgets">
+                                        <option>Budget Level</option>
+                                        <option>$500 to $1,000</option>
+                                        <option>$1,000 to $2,200</option>
+                                        <option>$2,200 to $4,500</option>
+                                        <option>$4,500 to $7,500</option>
+                                        <option>$7,500 to $12,000</option>
+                                        <option>$12,000 or more</option>
+                                   </select>
+                              </div>
+
+                              <div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="6" placeholder="Your requirements" id="cf-message" name="cf-message" required=""></textarea>
+                              </div>
+
+                              <div class="col-md-4 col-sm-12">
+                                   <input type="submit" class="form-control" name="submit" value="Send Message">
+                              </div>
+
+                         </form>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="google-map">
+
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" allowfullscreen></iframe>
+                         </div>
+                    </div>
+
+               </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <h3 style="color: #fff; padding-left: 15px; font-size: 15px;">Menu</h3>
-            <br>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" >
-              <ul class="footer-ul">
-                <li><a class="footer-ul" href="index.html" style="font-size: 13px;">HOME</a></li>
-                <li><a class="footer-ul" href="#" style="font-size: 13px;">THEMES</a></li>
-                <li><a class="footer-ul" href="#" style="font-size: 13px;">LOGIN</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-3 col-sm-6 col-xs-6">
-              <ul class="footer-ul">
-                <li><a class="footer-ul" href="#" style="font-size: 13px;">PLUGINS</a></li>
-                <li><a class="footer-ul" href="feature.html" style="font-size: 13px;">FEATURE</a></li>
-              </ul>
-            </div>
+     </section> -->
+
+
+     <!-- FOOTER -->
+     <footer id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-5 col-sm-12">
+                         <div class="footer-thumb footer-info"> 
+                              <h2>WebDigitX</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Company</h2>
+                              <ul class="footer-link">
+                                   <li><a href="#">About Us</a></li>
+                                   <li><a href="#">our team</a></li>
+                                   <!-- <li><a href="#">Read Blog</a></li>
+                                   <li><a href="#">Press</a></li> -->
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Mail Us</h2>
+                              <p>webdigitx@gmail.com</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Find us</h2>
+                              <p> building 49, Village Ishlampur, <br> Sector-38 Gurugram (India) 122011</p>
+                         </div>
+                    </div>                    
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="footer-bottom">
+                              <div class="col-md-6 col-sm-5">
+                                   <div class="copyright-text"> 
+                                        <p>© 2017 BY WEBDIGITX | ALL RIGHTS RESERVED</p>
+                                   </div>
+                              </div>
+                              <div class="col-md-6 col-sm-7">
+                                   <div class="phone-contact"> 
+                                        <p>Call us <span>+91 9968827997</span></p>
+                                   </div>
+                                   <ul class="social-icon">
+                                        <li><a href="" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6">
-            <!-- <div class="col-md-12 col-sm-12 col-xs-12" style="padding: 0px;">
-              <h3 style="color: #fff; padding-left: 15px; font-size: 15px;">Subscribe Me...</h3>
-              <br>
-              <div class="form-section">
-                    <input placeholder="Your email..." name="EMAIL" id="EMAIL" type="email">
-                    <input value="Subscribe Us" name="subscribe" id="mc-embedded-subscribe" type="submit">
-              </div>
-            </div> -->
-            <div class="col-md-12 col-sm-12 col-xs-12" style="padding: 0px;">
-              <h3 style="color: #fff; padding-left: 15px; font-size: 15px;">Follow Us</h3>
-                <ul class="social-network social-circle">
-                          <li><a target="_blank"  href="https://www.facebook.com/Limestem-Global-Services-Pvt-Ltd-450257478646736/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+     </footer>
 
-                          <li><a target="_blank" href="https://twitter.com/limestem" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 
-                           <li><a  target="_blank" href="https://www.linkedin.com/cws/share?url=http%3A%2F%2Flimestem.com" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                              <script src="https://apis.google.com/js/platform.js" async defer></script>
+     <!-- MODAL -->
+<!--      <section class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+               <div class="modal-content modal-popup">
 
-                           <li><a target="_blank"  href="https://plus.google.com/106420326608954035892" data-rel="{publisher}"  class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li> 
+                    <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                         </button>
+                    </div>
 
-                  </ul>
-            </div>   
+                    <div class="modal-body">
+                         <div class="container-fluid">
+                              <div class="row">
+
+                                   <div class="col-md-12 col-sm-12">
+                                        <div class="modal-title">
+                                             <h2>Hydro Co</h2>
+                                        </div>
+                                        <ul class="nav nav-tabs" role="tablist">
+                                             <li class="active"><a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab">Create an account</a></li>
+                                             <li><a href="#sign_in" aria-controls="sign_in" role="tab" data-toggle="tab">Sign In</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                             <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
+                                                  <form action="#" method="post">
+                                                       <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                                       <input type="telephone" class="form-control" name="telephone" placeholder="Telephone" required>
+                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
+                                                  </form>
+                                             </div>
+
+                                             <div role="tabpanel" class="tab-pane fade in" id="sign_in">
+                                                  <form action="#" method="post">
+                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
+                                                       <a href="https://www.facebook.com/templatemo">Forgot your password?</a>
+                                                  </form>
+                                             </div>
+                                        </div>
+                                   </div>
+
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
           </div>
+     </section> -->
 
-          
-        </div>
-      </div>
-      </div>
-      <div class="copy-right">
-      <div class="wrap">
-          <center><p>&copy; 2017 by <a href="">WebDigitX</a> | All rights reserved</p></center>
-      </div>
-  </div>
-</section>
-    <script src="js/index.js"></script>
-    <script type="text/javascript" src="js/scrolling-nav.js"></script>
-<!--     <script type="text/javascript" src="js/jquery.paroller.js"></script>
-    <script type="text/javascript" src="js/jquery.paroller.min.js"></script> -->
-     <script src="js/wow.js"></script>
-     <script src="js/wow.min.js"></script>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
 
-    <script type="text/javascript">
-
-      // $(window).paroller();
-
-       new WOW().init();
-
-
-    $('.form').find('input, textarea').on('keyup blur focus', function (e) {
-  
-  var $this = $(this),
-      label = $this.prev('label');
-
-    if (e.type === 'keyup') {
-      if ($this.val() === '') {
-          label.removeClass('active highlight');
-        } else {
-          label.addClass('active highlight');
-        }
-    } else if (e.type === 'blur') {
-      if( $this.val() === '' ) {
-        label.removeClass('active highlight'); 
-      } else {
-        label.removeClass('highlight');   
-      }   
-    } else if (e.type === 'focus') {
-      
-      if( $this.val() === '' ) {
-        label.removeClass('highlight'); 
-      } 
-      else if( $this.val() !== '' ) {
-        label.addClass('highlight');
-      }
-    }
-
-});
-
-$('.user a').on('click', function (e) {
-  
-  e.preventDefault();
-  
-  $(this).parent().addClass('active');
-  $(this).parent().siblings().removeClass('active');
-  
-  target = $(this).attr('href');
-
-  $('.abc > div').not(target).hide();
-  
-  $(target).fadeIn(600);
-  
-});
-$('.partner a').on('click', function (e) {
-  
-  e.preventDefault();
-  
-  $(this).parent().addClass('active');
-  $(this).parent().siblings().removeClass('active');
-  
-  target = $(this).attr('href');
-
-  $('.xyz > div').not(target).hide();
-  
-  $(target).fadeIn(600);
-  
-});
-     
-    $(".a1").click(function(e) {
-        e.stopPropagation();
-    });
-
-
-  $("figure").mouseleave(
-    function() {
-      $(this).removeClass("hover");
-    }
-  );
-    </script>
 </body>
 </html>
